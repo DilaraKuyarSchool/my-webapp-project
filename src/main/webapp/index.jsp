@@ -80,9 +80,9 @@
 </head>
 <body>
     <div class="container">
-        <h2>Hoş Geldiniz!</h2>
-        <p>Bu sayfa geçen haftaki tasarımın üzerine Dark Mode özelliği eklenerek geliştirilmiştir.</p>
-        <button id="themeToggle">Gece Moduna Geç</button>
+        <h2>Welcome!</h2>
+        <p>This page features a Dark Mode toggle added on top of last week's design.</p>
+        <button id="themeToggle">Switch to Dark Mode</button>
     </div>
 
     <script>
@@ -91,11 +91,11 @@
             document.body.classList.toggle('dark-mode');
             
             if(document.body.classList.contains('dark-mode')){
-                btn.textContent = 'Gündüz Moduna Geç';
+                btn.textContent = 'Switch to Light Mode';
             } else {
-                btn.textContent = 'Gece Moduna Geç';
+                btn.textContent = 'Switch to Dark Mode';
             }
         });
     </script>
 </body>
-</html>
+<html>
